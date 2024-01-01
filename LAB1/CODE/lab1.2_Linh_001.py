@@ -11,7 +11,7 @@ class JSONReader:
             for user in self.data:
                 print(f"Name: {user['name']}, Age: {user['age']}, Address:{user['address']}")
 # Sử dụng lớp JSONReader
-path = 'D:/16A1HN/LAB1/DATA/users.json'
+path = 'D:/16A1KHDL/LAB1/DATA/users.json'
 reader = JSONReader(path)
 reader.read_json()
 reader.display_data()
